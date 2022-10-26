@@ -13,7 +13,7 @@ const Header = () => {
 
   const click = () => {
     const url =
-      "https://api.unsplash.com/search/photos?page=1&query= " +
+      "https://api.unsplash.com/search/photos?page=5&per_page=500&query=  " +
       images +
       "&client_id=" +
       clientId;
